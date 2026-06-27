@@ -21,7 +21,7 @@
 
 ## 4. IOCs
 - IPs: 203.0.113.200, 203.0.113.201, 198.51.100.80
-- Hashes/credenciais: (se houver)
+- Hashes/credenciais:
 - Arquivos: /tmp/nc, shell.php
 
 ## 5. Lições aprendidas

@@ -1,9 +1,9 @@
 # Análise do Cenário 1
 
-**Data da análise:** [data atual]
+**Data da análise:** 20/05/2026
 
 ## 1. Resumo executivo
-[Escreva um parágrafo resumindo o ataque]
+
 
 ## 2. Linha do tempo
 | Horário (UTC) | Fonte | Evento |

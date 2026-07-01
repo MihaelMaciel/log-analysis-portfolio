@@ -1,0 +1,43 @@
+2026-06-30 14:00:02 1204 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; check the manual near ''1''='1'' at line 1 - Query: SELECT * FROM produtos WHERE nome LIKE '%livro' OR '1'='1%'
+
+2026-06-30 14:00:16 1204 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near 'UNION SELECT null,user()-- %' at line 1
+
+2026-06-30 14:00:30 1204 [WARNING] [client 127.0.0.1] #1292: Truncated incorrect DOUBLE value: '1'='1' - Query: SELECT * FROM produtos WHERE id = 'cadeira' AND 1=1--'
+
+2026-06-30 14:01:00 1204 [ERROR] [client 127.0.0.1] #1054: Unknown column 'password' in 'field list' - Query: SELECT username, password FROM users WHERE user='admin' OR 1=1--' AND pass='123'
+
+2026-06-30 14:03:50 1204 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near '@@version, database()-- %' at line 1
+
+2026-06-30 14:04:05 1204 [NOTE] [client 127.0.0.1] Aborted connection 1204 to db: 'loja_virtual' user: 'webuser' host: 'localhost' (Got an error reading communication packets)
+
+2026-06-30 14:05:32 1208 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near 'DROP TABLE produtos; -- %' at line 1
+
+2026-06-30 14:06:15 1208 [WARNING] [client 127.0.0.1] #1264: Out of range value for column 'id' at row 1 - Query: UPDATE produtos SET nome='SQL' WHERE id=1
+
+2026-06-30 14:06:57 1208 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near '--' AND pass='qualquer' at line 1 - Query: SELECT * FROM users WHERE user='admin'--' AND pass='qualquer'
+
+2026-06-30 14:07:25 1210 [WARNING] [client 127.0.0.1] #1116: Deadlock found when trying to get lock; try restarting transaction - (Correlacionado com SLEEP(5) do atacante)
+
+2026-06-30 14:08:45 1210 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near 'information_schema.columns-- %' at line 1
+
+2026-06-30 14:09:30 1210 [WARNING] [client 127.0.0.1] #1366: Incorrect integer value: '1'='1' for column 'id' at row 1 - Query: SELECT * FROM produtos WHERE id = '1'='1'
+
+2026-06-30 14:10:18 1212 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near 'HAVING 1=1-- %' at line 1
+
+2026-06-30 14:12:35 1212 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near 'OR 1=1 LIMIT 1-- AND pass='x'' at line 1
+
+2026-06-30 14:13:05 1215 [ERROR] [client 127.0.0.1] #1241: Operand should contain 1 column(s) - Query: SELECT 1,2,3,4,5,6,7 FROM produtos WHERE id=-1' UNION SELECT 1,2,3,4,5,6,7--'
+
+2026-06-30 14:14:00 1215 [WARNING] [client 127.0.0.1] #1048: Column 'nome' cannot be null - (Tentativa de UNION com campos nulos)
+
+2026-06-30 14:15:15 1218 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near 'AND (SELECT COUNT(*) FROM users) > 0-- %' at line 1
+
+2026-06-30 14:16:45 1218 [NOTE] [client 127.0.0.1] Access denied for user 'webuser'@'localhost' (using password: YES) - Query: SELECT * FROM logs WHERE id='caneta' (Falha legítima)
+
+2026-06-30 14:17:58 1220 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near ''a'='a' AND 'b'='b%'' at line 1
+
+2026-06-30 14:18:30 1220 [WARNING] [client 127.0.0.1] #1205: Lock wait timeout exceeded; try restarting transaction - (Time-out causado pelo ataque de negação de serviço via Sleep)
+
+2026-06-30 14:19:02 1225 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near 'xp_cmdshell('dir')-- %' at line 1 - (Tentativa de comando de sistema)
+
+2026-06-30 14:21:05 1228 [ERROR] [client 127.0.0.1] #1064: You have an error in your SQL syntax; near 'UNION SELECT password FROM users WHERE username='admin'-- %' at line 1

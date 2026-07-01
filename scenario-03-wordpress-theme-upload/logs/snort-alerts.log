@@ -1,0 +1,20 @@
+[**] [1:3000001:1] WEB-WORDPRESS wp-login.php brute force [**] [Priority: 2] 06/22-10:05:12 203.0.113.55 -> 192.168.100.10:80 TCP
+[**] [1:3000002:1] WEB-WORDPRESS theme upload detected [**] [Priority: 1] 06/22-10:05:25 203.0.113.55 -> 192.168.100.10:80 TCP
+[**] [1:3000003:1] SERVER-WEBAPP evil-theme/index.php access [**] [Priority: 2] 06/22-10:05:30 203.0.113.55 -> 192.168.100.10:80 TCP
+[**] [1:3000004:1] ATTACK-RESPONSE /etc/shadow file access via web [**] [Priority: 1] 06/22-10:06:05 192.168.100.10 -> 203.0.113.55:80 TCP
+[**] [1:3000005:1] POLICY-OTHER base64 encoded command execution [**] [Priority: 2] 06/22-10:10:00 192.168.100.10 -> 198.51.100.77:80 TCP
+[**] [1:3000006:1] MALWARE-CNC Win.Trojan.CobaltStrike variant download [**] [Priority: 1] 06/22-10:15:00 192.168.100.10 -> 198.51.100.77:80 TCP
+[**] [1:3000007:1] MALWARE-CNC reverse shell via socat [**] [Priority: 1] 06/22-10:30:00 192.168.100.10 -> 203.0.113.55:443 TCP
+[**] [1:3000008:1] SCAN SYN FIN [**] [Priority: 2] 06/22-10:15:30 198.51.100.77 -> 192.168.100.10:22 TCP
+[**] [1:3000009:1] SCAN vulnerability scanner Nessus detected [**] [Priority: 3] 06/22-10:25:00 10.10.1.200 -> 192.168.100.10:80 TCP
+[**] [1:3000010:1] EXPLOIT directory traversal attempt [**] [Priority: 2] 06/22-10:25:03 10.10.1.200 -> 192.168.100.10:80 TCP
+[**] [1:3000011:1] NETBIOS DCERPC bind attempt [**] [Priority: 3] 06/22-10:10:00 192.168.100.100 -> 192.168.100.20:445 TCP
+[**] [1:3000012:1] OS-WINDOWS Microsoft Windows SMB administrator login failure [**] [Priority: 2] 06/22-10:10:05 192.168.100.100 -> 192.168.100.20:445 TCP
+[**] [1:3000013:1] MISC SNMP community string attempt 'private' [**] [Priority: 2] 06/22-10:20:00 192.168.100.100 -> 192.168.100.10:161 UDP
+[**] [1:3000014:1] DNS zone transfer query [**] [Priority: 3] 06/22-11:10:00 192.168.100.10 -> 8.8.8.8:53 UDP
+[**] [1:3000015:1] FILE-IMAGE bogus PNG file magic [**] [Priority: 3] 06/22-10:05:25 203.0.113.55 -> 192.168.100.10:80 TCP
+[**] [1:3000016:1] POLICY-OTHER suspicious DNS query (exfil.evil.org) [**] [Priority: 1] 06/22-11:10:00 192.168.100.10 -> 8.8.8.8:53 UDP
+[**] [1:3000017:1] ATTACK-RESPONSE id check returned root [**] [Priority: 2] 06/22-10:06:00 192.168.100.10 -> 203.0.113.55:80 TCP
+[**] [1:3000018:1] MALWARE-CNC outbound HTTPS tunnel [**] [Priority: 1] 06/22-10:45:00 192.168.100.10 -> 203.0.113.55:443 TCP
+[**] [1:3000019:1] SERVER-WEBAPP WordPress plugin update attempt [**] [Priority: 4] 06/22-10:05:15 192.168.100.10 -> 127.0.0.1:80 TCP
+[**] [1:3000020:1] MISC MS Terminal Server request [**] [Priority: 2] 06/22-10:15:00 192.168.100.100 -> 192.168.100.10:3389 UDP

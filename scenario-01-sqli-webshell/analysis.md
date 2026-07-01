@@ -3,7 +3,7 @@
 **Data da análise:** 20/05/2026
 
 ## 1. Resumo executivo
-
+Atualização em breve
 
 ## 2. Linha do tempo
 | Horário (UTC) | Fonte | Evento |

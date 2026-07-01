@@ -1,0 +1,20 @@
+[**] [1:5000001:1] SERVER-WEBAPP pickle deserialization attempt [**] [Priority: 1] 06/26-08:05:12 203.0.113.150 -> 10.100.0.5:8000 TCP
+[**] [1:5000002:1] POLICY-OTHER base64 encoded command in HTTP POST [**] [Priority: 2] 06/26-08:05:13 203.0.113.150 -> 10.100.0.5:8000 TCP
+[**] [1:5000003:1] MALWARE-CNC beacon via HTTPS (suspicious JA3) [**] [Priority: 1] 06/26-08:15:00 10.100.0.5 -> 198.51.100.44:443 TCP
+[**] [1:5000004:1] MALWARE-CNC Kerberoasting script download [**] [Priority: 1] 06/26-08:20:00 10.100.0.5 -> 198.51.100.44:80 TCP
+[**] [1:5000005:1] OS-WINDOWS pass-the-hash attempt [**] [Priority: 1] 06/26-09:00:00 10.100.0.5 -> 10.100.0.10:445 TCP
+[**] [1:5000006:1] MALWARE-CNC DCSync replication request [**] [Priority: 1] 06/26-09:15:00 10.100.0.5 -> 10.100.0.10:389 TCP
+[**] [1:5000007:1] POLICY-OTHER DNS exfiltration (base64 subdomain) [**] [Priority: 1] 06/26-10:00:00 10.100.0.5 -> 8.8.8.8:53 UDP
+[**] [1:5000008:1] SCAN SYN FIN [**] [Priority: 2] 06/26-08:05:10 203.0.113.150 -> 10.100.0.5:8000 TCP
+[**] [1:5000009:1] SCAN Nessus vulnerability scanner detected [**] [Priority: 2] 06/26-08:45:00 10.100.0.200 -> 10.100.0.5:8000 TCP
+[**] [1:5000010:1] EXPLOIT directory traversal attempt [**] [Priority: 2] 06/26-08:45:03 10.100.0.200 -> 10.100.0.5:8000 TCP
+[**] [1:5000011:1] SERVER-WEBAPP suspicious internal endpoint access (/api/v1/kerberoast) [**] [Priority: 1] 06/26-09:15:00 10.100.0.5 -> 10.100.0.5:8000 TCP
+[**] [1:5000012:1] SERVER-WEBAPP DCSync API call [**] [Priority: 1] 06/26-09:15:01 10.100.0.5 -> 10.100.0.5:8000 TCP
+[**] [1:5000013:1] POLICY-OTHER AWS S3 upload with unusual size [**] [Priority: 2] 06/26-10:00:05 10.100.0.5 -> 54.231.163.0:443 TCP
+[**] [1:5000014:1] FILE-IDENTITY PE executable download over HTTP [**] [Priority: 2] 06/26-08:20:00 10.100.0.5 -> 198.51.100.44:80 TCP
+[**] [1:5000015:1] ATTACK-RESPONSE Windows domain controller user creation [**] [Priority: 1] 06/26-09:30:00 10.100.0.5 -> 10.100.0.10:445 TCP
+[**] [1:5000016:1] MALWARE-CNC periodic beacon 120s [**] [Priority: 1] 06/26-08:15:01 10.100.0.5 -> 198.51.100.44:443 TCP
+[**] [1:5000017:1] MALWARE-CNC periodic beacon 120s [**] [Priority: 1] 06/26-08:17:01 10.100.0.5 -> 198.51.100.44:443 TCP
+[**] [1:5000018:1] MALWARE-CNC periodic beacon 120s [**] [Priority: 1] 06/26-08:19:01 10.100.0.5 -> 198.51.100.44:443 TCP
+[**] [1:5000019:1] MALWARE-CNC periodic beacon 120s [**] [Priority: 1] 06/26-08:21:01 10.100.0.5 -> 198.51.100.44:443 TCP
+[**] [1:5000020:1] ATTACK-RESPONSE credential dumping output (krbtgt hash) [**] [Priority: 1] 06/26-09:15:00 10.100.0.5 -> 10.100.0.10:389 TCP

@@ -1,0 +1,12 @@
+2026-06-26 08:00:05, WIN-DC01, Security, 4624, Success, Logon, Account: j.smith, Workstation: WS001, Type: 2
+2026-06-26 08:10:00, WIN-DC01, Security, 4625, Failure, Logon, Account: svc_mssql, Workstation: 10.100.0.5, Type: 3
+2026-06-26 08:10:05, WIN-DC01, Security, 4625, Failure, Logon, Account: svc_mssql, Workstation: 10.100.0.5, Type: 3
+2026-06-26 08:10:10, WIN-DC01, Security, 4624, Success, Logon, Account: svc_mssql, Workstation: 10.100.0.5, Type: 3
+2026-06-26 08:10:15, WIN-DC01, Security, 4769, Success, Kerberos Service Ticket, Account: svc_mssql, Service: HTTP/web01.empresa.local
+2026-06-26 08:45:00, WIN-DC01, Security, 4624, Success, Logon, Account: admin, Workstation: 10.100.0.50, Type: 3
+2026-06-26 09:00:00, WIN-DC01, Security, 4624, Success, Logon, Account: svc_mssql, Workstation: 10.100.0.5, Type: 3
+2026-06-26 09:00:05, WIN-DC01, Security, 4662, Success, Directory Service Access, Account: svc_mssql, Object: CN=Domain Admins
+2026-06-26 09:15:00, WIN-DC01, Security, 4662, Success, Directory Service Access, Account: svc_mssql, Object: DC=empresa,DC=local
+2026-06-26 09:15:01, WIN-DC01, Security, 4624, Success, Logon, Account: administrator, Workstation: 10.100.0.5, Type: 3
+2026-06-26 09:15:05, WIN-DC01, Security, 4672, Success, Special Logon, Account: administrator, Privileges: SeTcbPrivilege
+2026-06-26 09:30:00, WIN-DC01, Security, 4728, Success, Group Membership, Account: eviluser, Group: Domain Admins

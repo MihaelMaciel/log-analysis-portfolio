@@ -1,0 +1,49 @@
+200.100.10.50 - - [30/Jun/2026:14:00:01 -0300] "GET /busca?q=livro%27%20OR%20%271%27%3D%271 HTTP/1.1" 403 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+189.1.10.22 - - [30/Jun/2026:14:00:10 -0300] "GET / HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Firefox/120.0"
+
+200.100.10.50 - - [30/Jun/2026:14:00:15 -0300] "GET /busca?q=teste%27%20UNION%20SELECT%20null%2Cuser%28%29-- HTTP/1.1" 403 512 "-" "Mozilla/5.0"
+
+177.15.23.4 - - [30/Jun/2026:14:01:02 -0300] "GET /produto/123 HTTP/1.1" 200 3540 "https://www.lojavirtual.com.br/busca?q=O%27Brien" "Chrome/121.0"
+
+200.100.10.50 - - [30/Jun/2026:14:01:30 -0300] "GET /busca?q=cadeira%27%20AND%201%3D1-- HTTP/1.1" 403 512 "https://www.lojavirtual.com.br/" "Mozilla/5.0"
+
+200.100.10.50 - - [30/Jun/2026:14:02:10 -0300] "POST /login HTTP/1.1" 403 512 "https://www.lojavirtual.com.br/login" "Mozilla/5.0"
+
+187.32.12.88 - - [30/Jun/2026:14:03:00 -0300] "GET /carrinho HTTP/1.1" 200 1500 "https://www.lojavirtual.com.br/produto/123" "Chrome/120.0"
+
+200.100.10.50 - - [30/Jun/2026:14:03:45 -0300] "GET /busca?q=%27%20UNION%20SELECT%20%40%40version%2C%20database%28%29-- HTTP/1.1" 403 512 "-" "Mozilla/5.0"
+
+200.100.10.50 - - [30/Jun/2026:14:05:30 -0300] "GET /busca?q=%27%3B%20DROP%20TABLE%20produtos%3B%20-- HTTP/1.1" 403 512 "-" "Mozilla/5.0"
+
+66.249.66.1 - - [30/Jun/2026:14:06:00 -0300] "GET /robots.txt HTTP/1.1" 200 200 "-" "Googlebot/2.1 (+http://www.google.com/bot.html)"
+
+177.15.23.4 - - [30/Jun/2026:14:06:10 -0300] "GET /blog/artigo?q=SQL HTTP/1.1" 200 5600 "https://www.google.com/search?q=sql+injection" "Chrome/121.0"
+
+200.100.10.50 - - [30/Jun/2026:14:06:55 -0300] "POST /login?user=admin%27--&pass=qualquer HTTP/1.1" 403 512 "https://www.lojavirtual.com.br/login" "Mozilla/5.0"
+
+200.100.10.50 - - [30/Jun/2026:14:07:20 -0300] "GET /busca?q=1%27%20AND%20SLEEP%285%29-- HTTP/1.1" 403 512 "-" "Mozilla/5.0"
+
+189.1.10.22 - - [30/Jun/2026:14:08:00 -0300] "GET /assets/style.css HTTP/1.1" 200 1234 "https://www.lojavirtual.com.br/" "Firefox/120.0"
+
+200.100.10.50 - - [30/Jun/2026:14:08:40 -0300] "GET /busca?q=%27%20UNION%20SELECT%20table_name%2C%20column_name%20FROM%20information_schema.columns-- HTTP/1.1" 403 512 "-" "Mozilla/5.0"
+
+200.100.10.50 - - [30/Jun/2026:14:10:15 -0300] "GET /busca?q=livro%27%20HAVING%201%3D1-- HTTP/1.1" 403 512 "-" "Mozilla/5.0"
+
+179.200.45.12 - - [30/Jun/2026:14:11:00 -0300] "GET /produto/456 HTTP/1.1" 200 2800 "https://www.lojavirtual.com.br/" "Edge/122.0"
+
+200.100.10.50 - - [30/Jun/2026:14:12:30 -0300] "POST /login HTTP/1.1" 403 512 "https://www.lojavirtual.com.br/login" "Mozilla/5.0" [Payload: user=%27%20OR%201%3D1%20LIMIT%201--]
+
+200.100.10.50 - - [30/Jun/2026:14:13:00 -0300] "GET /busca?q=-1%27%20UNION%20SELECT%201%2C2%2C3%2C4%2C5%2C6%2C7-- HTTP/1.1" 403 512 "-" "Mozilla/5.0"
+
+189.1.10.22 - - [30/Jun/2026:14:14:00 -0300] "GET /sobre HTTP/1.1" 200 1100 "https://www.lojavirtual.com.br/" "Firefox/120.0"
+
+200.100.10.50 - - [30/Jun/2026:14:15:10 -0300] "GET /busca?q=%27%20AND%20%28SELECT%20COUNT%28%2A%29%20FROM%20users%29%20%3E%200-- HTTP/1.1" 403 512 "-" "Mozilla/5.0"
+
+200.100.10.50 - - [30/Jun/2026:14:17:55 -0300] "GET /busca?q=admin%27%20OR%20%27a%27%3D%27a%27%20AND%20%27b%27%3D%27b HTTP/1.1" 403 512 "-" "Mozilla/5.0"
+
+177.15.23.4 - - [30/Jun/2026:14:18:00 -0300] "GET /finalizar-compra HTTP/1.1" 302 0 "https://www.lojavirtual.com.br/carrinho" "Chrome/121.0"
+
+200.100.10.50 - - [30/Jun/2026:14:19:00 -0300] "GET /busca?q=1%27%3B%20EXEC%20xp_cmdshell%28%27dir%27%29-- HTTP/1.1" 403 512 "-" "Mozilla/5.0"
+
+200.100.10.50 - - [30/Jun/2026:14:21:00 -0300] "GET /busca?q=%27%20UNION%20SELECT%20password%20FROM%20users%20WHERE%20username%3D%27admin%27-- HTTP/1.1" 403 512 "-" "Mozilla/5.0"

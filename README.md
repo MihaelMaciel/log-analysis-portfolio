@@ -12,7 +12,7 @@ Este repositório contém cenários simulados de incidentes cibernéticos, anali
 | 4 | [Node.js Command Injection → Pass-the-Hash](./scenario-04-nodejs-command-injection/) | Intermediário-Avançado | Command injection, reverse shell Bash, pass-the-hash, Kerberoasting, exfiltração DNS |
 | 5 | [Kerberoasting, DCSync & Cloud Exfil](./scenario-05-kerberoasting-dcsync/) | Avançado | Pickle deserialization, beacon HTTPS, Kerberoasting, DCSync, exfiltração S3/DNS |
 
-Cada subpasta contém os **logs brutos** e um arquivo `analysis.md` com a minha análise detalhada.
+Cada subpasta contém os **logs brutos** e um arquivo `analysis.md` o qual ainda está em desenvolvimento **Resumo Executivo**.
 
 ## Habilidades demonstradas
 

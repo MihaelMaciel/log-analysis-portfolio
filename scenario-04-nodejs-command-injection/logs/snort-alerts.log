@@ -1,0 +1,20 @@
+[**] [1:4000001:1] SERVER-WEBAPP command injection attempt [**] [Priority: 1] 07/10-14:05:12 203.0.113.100 -> 10.0.0.5:3000 TCP
+[**] [1:4000002:1] ATTACK-RESPONSE /etc/passwd file exfil via web [**] [Priority: 1] 07/10-14:05:13 10.0.0.5 -> 203.0.113.100:3000 TCP
+[**] [1:4000003:1] POLICY-OTHER curl download and pipe to shell [**] [Priority: 2] 07/10-14:05:15 10.0.0.5 -> 198.51.100.200:80 TCP
+[**] [1:4000004:1] MALWARE-CNC reverse shell bash TCP [**] [Priority: 1] 07/10-14:05:20 10.0.0.5 -> 198.51.100.200:4444 TCP
+[**] [1:4000005:1] SERVER-WEBAPP Node.js command injection (CVE-2021-21315) [**] [Priority: 1] 07/10-14:05:12 203.0.113.100 -> 10.0.0.5:3000 TCP
+[**] [1:4000006:1] SCAN Nessus vulnerability scanner detected [**] [Priority: 2] 07/10-14:15:00 10.0.0.200 -> 10.0.0.5:3000 TCP
+[**] [1:4000007:1] EXPLOIT .env file access attempt [**] [Priority: 2] 07/10-14:15:03 10.0.0.200 -> 10.0.0.5:3000 TCP
+[**] [1:4000008:1] MISC SNMP community string attempt 'private' [**] [Priority: 2] 07/10-14:20:00 10.0.0.5 -> 10.0.0.1:161 UDP
+[**] [1:4000009:1] NETBIOS SMB administrator login attempt [**] [Priority: 2] 07/10-14:25:00 10.0.0.5 -> 10.0.0.10:445 TCP
+[**] [1:4000010:1] OS-WINDOWS pass-the-hash detected [**] [Priority: 1] 07/10-14:25:00 10.0.0.5 -> 10.0.0.10:445 TCP
+[**] [1:4000011:1] MALWARE-CNC DNS tunnel query (exfil.evil.org) [**] [Priority: 1] 07/10-14:30:00 10.0.0.5 -> 8.8.8.8:53 UDP
+[**] [1:4000012:1] ATTACK-RESPONSE Windows account lockout [**] [Priority: 3] 07/10-14:10:10 10.0.0.5 -> 10.0.0.10:389 TCP
+[**] [1:4000013:1] MALWARE-CNC Win.Trojan.CobaltStrike executable download [**] [Priority: 1] 07/10-14:35:00 10.0.0.5 -> 10.0.0.10:80 TCP
+[**] [1:4000014:1] FILE-IDENTIFY PE executable download over HTTP [**] [Priority: 2] 07/10-14:35:00 10.0.0.5 -> 10.0.0.10:80 TCP
+[**] [1:4000015:1] POLICY-OTHER suspicious internal user agent (node-fetch) [**] [Priority: 3] 07/10-14:30:00 10.0.0.5 -> 10.0.0.5:3000 TCP
+[**] [1:4000016:1] SCAN SYN portscan against port 3000 [**] [Priority: 2] 07/10-14:05:10 203.0.113.100 -> 10.0.0.5:3000 TCP
+[**] [1:4000017:1] MALWARE-CNC beacon to known C2 (198.51.100.200:443) [**] [Priority: 1] 07/10-14:10:00 10.0.0.5 -> 198.51.100.200:443 TCP
+[**] [1:4000018:1] DNS zone transfer query [**] [Priority: 3] 07/10-14:30:00 10.0.0.5 -> 8.8.8.8:53 UDP
+[**] [1:4000019:1] ICMP ping sweep internal [**] [Priority: 3] 07/10-14:01:00 10.0.0.50 -> 8.8.8.8 ICMP
+[**] [1:4000020:1] SERVER-WEBAPP /api/internal/status access from localhost [**] [Priority: 4] 07/10-14:30:00 10.0.0.5 -> 10.0.0.5:3000 TCP

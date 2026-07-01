@@ -1,7 +1,0 @@
-2026-03-01 08:00:20, WIN-DC01, Security, 4624, Success, Logon, Account Name: admin, Source Network Address: 172.16.10.5, Logon Type: 3
-2026-03-01 08:00:25, WIN-DC01, Security, 4672, Success, Special Logon, Account Name: admin, Privileges: SeSecurityPrivilege
-2026-03-01 08:01:30, WIN-DC01, Security, 4625, Failure, Logon, Account Name: administrador, Source Network Address: 172.16.50.10, Logon Type: 3
-2026-03-01 08:01:35, WIN-DC01, Security, 4625, Failure, Logon, Account Name: administrador, Source Network Address: 172.16.50.10, Logon Type: 3
-2026-03-01 08:01:40, WIN-DC01, Security, 4740, Success, Account Lockout, Account Name: administrador, Source: 172.16.50.10
-2026-03-01 08:25:00, WIN-DC01, Security, 4662, Success, Directory Service Access, Account Name: admin, Object: CN=Domain Admins,CN=Users,DC=empresa,DC=local
-2026-03-01 08:30:00, WIN-DC01, Security, 4728, Success, Group Membership, Account Name: eviluser, Group: Domain Admins

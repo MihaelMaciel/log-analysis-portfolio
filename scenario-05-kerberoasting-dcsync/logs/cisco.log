@@ -1,0 +1,18 @@
+%SEC-6-IPACCESSLOGP: list 140 denied tcp 203.0.113.150(60000) -> 10.100.0.5(22), 1 packet
+%SEC-6-IPACCESSLOGP: list 140 denied tcp 203.0.113.150(60001) -> 10.100.0.5(22), 1 packet
+%SEC-6-IPACCESSLOGP: list 140 denied tcp 203.0.113.150(60002) -> 10.100.0.5(22), 1 packet
+%LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+%DHCP-6-ADDRESS_ASSIGN: Interface Vlan10 assigned DHCP address 10.100.0.101 for client 00:1a:2b:3c:4d:5e
+%STP-6-PORTSTATUS: Port Gi0/2: STP status Forwarding
+%DUAL-5-NBRCHANGE: EIGRP-IPv4 1: Neighbor 10.100.0.1 (GigabitEthernet0/0) is up: new adjacency
+%SYS-5-CONFIG_I: Configured from console by admin on vty0 (10.100.0.50)
+%SNMP-3-AUTHFAIL: Authentication failure for SNMP query from 10.100.0.5
+%SPANTREE-2-RECV_PVID_ERR: Received BPDU with inconsistent peer vlan id 20 on GigabitEthernet0/3 VLAN10
+%OSPF-5-ADJCHG: Process 1, Nbr 10.100.0.2 on GigabitEthernet0/0 from FULL to DOWN, Neighbor Down: Dead timer expired
+%CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/3 (not half duplex), with Switch Port 3 (half duplex)
+%SYS-5-RESTART: System restarted -- Cisco IOS Software, Version 15.9(3)M6
+%SYS-5-RELOAD: Reload requested by admin on vty0 (10.100.0.50). Reload Reason: scheduled maintenance.
+%SNMP-4-LOGINFAIL: SNMP login failure from 10.100.0.5: incorrect community string 'private'
+%SEC-6-IPACCESSLOGP: list 140 denied tcp 10.100.0.5(44444) -> 10.100.0.10(445), 1 packet
+%SEC-6-IPACCESSLOGP: list 140 permitted tcp 10.100.0.5(50000) -> 10.100.0.10(445), 1 packet

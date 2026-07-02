@@ -1,49 +1,49 @@
-[30/Jun/2026:14:00:01] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=livro' OR '1'='1]
+SQLi - [30/Jun/2026:14:00:01] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=livro' OR '1'='1]
 
-[30/Jun/2026:14:00:15] [CRITICAL] [ID 942200] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=teste' UNION SELECT null,user()--]
+SQLi - [30/Jun/2026:14:00:15] [CRITICAL] [ID 942200] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=teste' UNION SELECT null,user()--]
 
-[30/Jun/2026:14:01:02] [WARNING] [ID 942440] [187.32.12.88] [ALLOWED] [/produto/123] [Payload: q=O'Brien (Falso Positivo)]
+OK - [30/Jun/2026:14:01:02] [WARNING] [ID 942440] [187.32.12.88] [ALLOWED] [/produto/123] [Payload: q=O'Brien (Falso Positivo)]
 
-[30/Jun/2026:14:01:30] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=cadeira' AND 1=1--]
+SQLi - [30/Jun/2026:14:01:30] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=cadeira' AND 1=1--]
 
-[30/Jun/2026:14:02:10] [CRITICAL] [ID 942200] [200.100.10.50] [BLOCKED] [/login] [Payload: user=admin' OR 1=1--&pass=123]
+SQLi - [30/Jun/2026:14:02:10] [CRITICAL] [ID 942200] [200.100.10.50] [BLOCKED] [/login] [Payload: user=admin' OR 1=1--&pass=123]
 
-[30/Jun/2026:14:03:45] [CRITICAL] [ID 942210] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=' UNION SELECT @@version, database()--]
+SQLi - [30/Jun/2026:14:03:45] [CRITICAL] [ID 942210] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=' UNION SELECT @@version, database()--]
 
-[30/Jun/2026:14:04:00] [ALERT] [ID 949110] [200.100.10.50] [BLOCKED] [/busca] [Payload: Inbound Anomaly Score (SQLi)]
+SQLi - [30/Jun/2026:14:04:00] [ALERT] [ID 949110] [200.100.10.50] [BLOCKED] [/busca] [Payload: Inbound Anomaly Score (SQLi)]
 
-[30/Jun/2026:14:05:30] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q='; DROP TABLE produtos; --]
+SQLi - [30/Jun/2026:14:05:30] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q='; DROP TABLE produtos; --]
 
-[30/Jun/2026:14:06:10] [WARNING] [ID 942440] [177.15.23.4] [ALLOWED] [/blog/artigo] [Payload: q=SQL (Termo legítimo)]
+OK - [30/Jun/2026:14:06:10] [WARNING] [ID 942440] [177.15.23.4] [ALLOWED] [/blog/artigo] [Payload: q=SQL (Termo legítimo)]
 
-[30/Jun/2026:14:06:55] [CRITICAL] [ID 942200] [200.100.10.50] [BLOCKED] [/login] [Payload: user=admin'--&pass=qualquer]
+SQLi - [30/Jun/2026:14:06:55] [CRITICAL] [ID 942200] [200.100.10.50] [BLOCKED] [/login] [Payload: user=admin'--&pass=qualquer]
 
-[30/Jun/2026:14:07:20] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=1' AND SLEEP(5)--]
+SQLi - [30/Jun/2026:14:07:20] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=1' AND SLEEP(5)--]
 
-[30/Jun/2026:14:08:40] [CRITICAL] [ID 942210] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=' UNION SELECT table_name, column_name FROM information_schema.columns--]
+SQLi - [30/Jun/2026:14:08:40] [CRITICAL] [ID 942210] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=' UNION SELECT table_name, column_name FROM information_schema.columns--]
 
-[30/Jun/2026:14:09:00] [ALERT] [ID 949110] [200.100.10.50] [BLOCKED] [/busca] [Payload: Inbound Anomaly Score (Error-Based)]
+SQLi - [30/Jun/2026:14:09:00] [ALERT] [ID 949110] [200.100.10.50] [BLOCKED] [/busca] [Payload: Inbound Anomaly Score (Error-Based)]
 
-[30/Jun/2026:14:10:15] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=livro' HAVING 1=1--]
+SQLi - [30/Jun/2026:14:10:15] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=livro' HAVING 1=1--]
 
-[30/Jun/2026:14:11:05] [WARNING] [ID 942500] [66.249.66.1] [ALLOWED] [/robots.txt] [Payload: Nenhum (Googlebot)]
+OK - [30/Jun/2026:14:11:05] [WARNING] [ID 942500] [66.249.66.1] [ALLOWED] [/robots.txt] [Payload: Nenhum (Googlebot)]
 
-[30/Jun/2026:14:12:30] [CRITICAL] [ID 942200] [200.100.10.50] [BLOCKED] [/login] [Payload: user=' OR 1=1 LIMIT 1--&pass=x]
+SQLi - [30/Jun/2026:14:12:30] [CRITICAL] [ID 942200] [200.100.10.50] [BLOCKED] [/login] [Payload: user=' OR 1=1 LIMIT 1--&pass=x]
 
-[30/Jun/2026:14:13:00] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=-1' UNION SELECT 1,2,3,4,5,6,7--]
+SQLi - [30/Jun/2026:14:13:00] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=-1' UNION SELECT 1,2,3,4,5,6,7--]
 
-[30/Jun/2026:14:14:20] [ALERT] [ID 942440] [200.100.10.50] [BLOCKED] [/busca] [Payload: SQL Comment Injection /**/]
+SQLi - [30/Jun/2026:14:14:20] [ALERT] [ID 942440] [200.100.10.50] [BLOCKED] [/busca] [Payload: SQL Comment Injection /**/]
 
-[30/Jun/2026:14:15:10] [CRITICAL] [ID 942210] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=' AND (SELECT COUNT(*) FROM users) > 0--]
+SQLi - [30/Jun/2026:14:15:10] [CRITICAL] [ID 942210] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=' AND (SELECT COUNT(*) FROM users) > 0--]
 
-[30/Jun/2026:14:16:40] [WARNING] [ID 942100] [189.1.20.5] [ALLOWED] [/busca] [Payload: q=caneta' (Apenas apóstrofo legítimo)]
+OK -[30/Jun/2026:14:16:40] [WARNING] [ID 942100] [189.1.20.5] [ALLOWED] [/busca] [Payload: q=caneta' (Apenas apóstrofo legítimo)]
 
-[30/Jun/2026:14:17:55] [CRITICAL] [ID 942200] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=admin' OR 'a'='a' AND 'b'='b]
+SQLi - [30/Jun/2026:14:17:55] [CRITICAL] [ID 942200] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=admin' OR 'a'='a' AND 'b'='b]
 
-[30/Jun/2026:14:18:30] [CRITICAL] [ID 949110] [200.100.10.50] [BLOCKED] [/login] [Payload: Anomaly Score Exceeded (Threshold 5/5)]
+SQLi - [30/Jun/2026:14:18:30] [CRITICAL] [ID 949110] [200.100.10.50] [BLOCKED] [/login] [Payload: Anomaly Score Exceeded (Threshold 5/5)]
 
-[30/Jun/2026:14:19:00] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=1'; EXEC xp_cmdshell('dir')--]
+SQLi - [30/Jun/2026:14:19:00] [CRITICAL] [ID 942100] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=1'; EXEC xp_cmdshell('dir')--]
 
-[30/Jun/2026:14:20:10] [WARNING] [ID 942440] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=/*!50000 SELECT*/ nome]
+SQLi - [30/Jun/2026:14:20:10] [WARNING] [ID 942440] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=/*!50000 SELECT*/ nome]
 
-[30/Jun/2026:14:21:00] [ALERT] [ID 942210] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=' UNION SELECT password FROM users WHERE username='admin'--]
+SQLi - [30/Jun/2026:14:21:00] [ALERT] [ID 942210] [200.100.10.50] [BLOCKED] [/busca] [Payload: q=' UNION SELECT password FROM users WHERE username='admin'--]

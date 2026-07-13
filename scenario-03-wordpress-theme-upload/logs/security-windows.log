@@ -1,9 +1,0 @@
-2026-06-22 10:00:05, WIN-DC01, Security, 4624, Success, Logon, Account: j.smith, Workstation: WS001, Type: 2
-2026-06-22 10:05:00, WIN-DC01, Security, 4624, Success, Logon, Account: admin, Workstation: 192.168.100.50, Type: 3
-2026-06-22 10:10:00, WIN-DC01, Security, 4625, Failure, Logon, Account: administrador, Workstation: 192.168.100.100, Type: 3
-2026-06-22 10:10:05, WIN-DC01, Security, 4625, Failure, Logon, Account: administrador, Workstation: 192.168.100.100, Type: 3
-2026-06-22 10:10:10, WIN-DC01, Security, 4740, Success, Account Lockout, Account: administrador, Source: 192.168.100.100
-2026-06-22 10:15:00, WIN-DC01, Security, 4624, Success, Logon, Account: svc_web, Workstation: 192.168.100.100, Type: 3
-2026-06-22 10:20:00, WIN-DC01, Security, 4672, Success, Special Logon, Account: svc_web, Privileges: SeSecurityPrivilege
-2026-06-22 10:25:00, WIN-DC01, Security, 4662, Success, Directory Service Access, Account: svc_web, Object: CN=Domain Admins
-2026-06-22 10:30:00, WIN-DC01, Security, 4728, Success, Group Membership, Account: svc_web, Group: Domain Admins

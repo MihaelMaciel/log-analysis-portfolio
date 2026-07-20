@@ -1,0 +1,22 @@
+Jul 15 09:00:20 webserver sshd[2245]: Failed password for invalid user admin from 10.0.0.5 port 55432 ssh2
+Jul 15 09:00:35 webserver sshd[2247]: Failed password for invalid user root from 10.0.0.5 port 55434 ssh2
+Jul 15 09:01:00 webserver sshd[2250]: Failed password for invalid user teste from 10.0.0.5 port 55436 ssh2
+Jul 15 09:01:30 webserver sshd[2252]: Failed password for invalid user user from 10.0.0.5 port 55438 ssh2
+Jul 15 09:02:00 webserver sshd[2255]: Failed password for invalid user oracle from 10.0.0.5 port 55440 ssh2
+Jul 15 09:02:30 webserver sshd[2257]: Failed password for invalid user postgres from 10.0.0.5 port 55442 ssh2
+Jul 15 09:03:00 webserver sshd[2260]: Failed password for invalid user admin from 10.0.0.5 port 55444 ssh2
+Jul 15 09:03:45 webserver sshd[2262]: Failed password for invalid user root from 10.0.0.5 port 55446 ssh2
+Jul 15 09:04:10 webserver sshd[2265]: Failed password for invalid user ftp from 10.0.0.5 port 55448 ssh2
+Jul 15 09:04:50 webserver sshd[2267]: Failed password for invalid user mysql from 10.0.0.5 port 55450 ssh2
+Jul 15 09:05:15 webserver sshd[2270]: Failed password for invalid user nagios from 10.0.0.5 port 55452 ssh2
+Jul 15 09:06:00 webserver sshd[2272]: Failed password for invalid user git from 10.0.0.5 port 55454 ssh2
+Jul 15 09:06:30 webserver sshd[2275]: Failed password for invalid user deploy from 10.0.0.5 port 55456 ssh2
+Jul 15 09:07:00 webserver sshd[2277]: Failed password for invalid user ansible from 10.0.0.5 port 55458 ssh2
+Jul 15 09:07:45 webserver sshd[2280]: Failed password for invalid user puppet from 10.0.0.5 port 55460 ssh2
+Jul 15 09:08:10 webserver sshd[2282]: Failed password for invalid user vagrant from 10.0.0.5 port 55462 ssh2
+Jul 15 09:09:00 webserver sshd[2285]: Failed password for invalid user ec2-user from 10.0.0.5 port 55464 ssh2
+Jul 15 09:09:30 webserver sshd[2287]: Failed password for invalid user ubuntu from 10.0.0.5 port 55466 ssh2
+Jul 15 09:10:00 webserver sshd[2290]: Failed password for invalid user debian from 10.0.0.5 port 55468 ssh2
+Jul 15 09:10:45 webserver sshd[2292]: Failed password for invalid user centos from 10.0.0.5 port 55470 ssh2
+Jul 15 09:11:15 webserver sshd[2295]: Failed password for invalid user admin from 10.0.0.5 port 55472 ssh2
+Jul 15 09:12:00 webserver sshd[2297]: Connection closed by authenticating user root 10.0.0.5 port 55474 [preauth]

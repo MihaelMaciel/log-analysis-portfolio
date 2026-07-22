@@ -23,4 +23,4 @@ Foam empregadas técnicas de Path Traversal (LFI), Cross-Site Scripting (XSS), S
  | 09:21:00	| Último evento | 200.100.10.50 | Time-Based Blind SQLi (SLEEP) | 
 
 ## Detalhamento: ##
- - ** 185.220.101.23: Concentrou-se em ** Local File Inclusion (LFI) **, tentando acessar arquivos sensíveis (/etc/passwd, /etc/shadow, logs do Nginx) e utilizou ofuscação avançada (URL encoding, double encoding, Base64). Também tentou fazer upload de uma Web Shell (shell.php) para obter execução remota de código (RCE). Todas as tentativas foram bloqueadas. 
+ - **185.220.101.23:** Concentrou-se em **Local File Inclusion (LFI)**, tentando acessar arquivos sensíveis (/etc/passwd, /etc/shadow, logs do Nginx) e utilizou ofuscação avançada (URL encoding, double encoding, Base64). Também tentou fazer upload de uma Web Shell (shell.php) para obter execução remota de código (RCE). Todas as tentativas foram bloqueadas. 
